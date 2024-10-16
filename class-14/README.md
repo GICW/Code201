@@ -30,7 +30,6 @@ In this class you are going to be introduced to CSS animations, and transitionin
 ### Additional Resources
 
 - [The State of JS](http://stateofjs.com)
-- [2023 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2023/)
 - [String methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 - [Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Basics of "pass by value" vs. "pass by reference"](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
