@@ -1,0 +1,4 @@
+---
+# configuration for gradiator tests
+features:
+  - lab-b

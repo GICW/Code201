@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <title>Class 01 Lab</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+    }
+
+    header {
+      height: 50px;
+      background-color: violet;
+    }
+
+    h1 {
+      color: black;
+      text-align: center;
+      margin: 0;
+    }
+
+    main {
+      height: calc(100% - 240px);
+      border-style: dotted;
+      padding: 20px;
+    }
+
+    footer {
+      height: 150px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Class 1 Lab</h1>
+  </header>
+  <main>
+    <p>What is 6 plus 7?</p>
+    <p>What is the Capital of Washington State</p>
+    <p>How many wheels are on a Bicycle?</p>
+    <p>Who is the President of the United States of America?</p>
+  </main>
+  <footer>
+    &copy; 2024 ITTP
+  </footer>
+
+  <script>
+
+    console.log('let\'s  ask some question');
+    let product = prompt('What is 6 plus 7?');
+    console.log('the users product: ' + product);
+
+    alert('You say the product of 6 and 7 is ' + product + '.');
+
+    let capital = prompt('What is the Capital of Washington State?');
+    console.log('the users capital: ' + capital);
+
+    alert('You say the Capital of Washington is ' + capital + '.\nThe product of 6 and 7 is ' + product + '.');
+
+    let wheels = prompt('How many wheels are on a Bicycle?');
+    console.log('The users wheels: ', wheels);
+
+    alert('You say there are ' + wheels + ' wheel on a bicycle.\nThe capital of Washington is ' + capital + '.\nAnd that 6 times 7 is ' + product + '.');
+
+    let president = prompt('Who is the President of the United States of America?');
+    console.log('The users president: ', president);
+
+    alert('You say that ' + president + ' is the president.\nThere are ' + wheels + ' wheels on a bicycle.\n' + capital + 'is the capital of Washington State.\nAnd the product of 6 and 7 is ' + product + '.');
+
+  </script>
+</body>
+
+</html>
