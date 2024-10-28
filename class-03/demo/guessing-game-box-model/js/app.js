@@ -20,16 +20,16 @@ while (!user) {
 }
 
 // this is the not-equals comparison operator
-if (user !== 'stephanie') {
-  alert('too bad you\'re not a stephanie');
+if (user !== 'qilin') {
+  alert('too bad you\'re not a qilin');
 }
 
 alert('Hi ' + user + '! I am so glad you decided to come to my site.');
 
-let answer = prompt('Is Stephanie\'s favorite food popcorn.', 'type yes or no').toLowerCase();
+let answer = prompt('Is Qilin\'s favorite food popcorn.', 'type yes or no').toLowerCase();
 console.log(answer);
 
-let foodsILike = ['tatertots', 'juanitas tortilla chips', 'popcorn', 'kale'];
+let foodsILike = ['chicken-wings', 'chocolate', 'fruits', 'chips'];
 
 for (let i = 0; i < foodsILike.length; i++) {
   console.log(foodsILike[i]);
