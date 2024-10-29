@@ -38,10 +38,6 @@ Compare the results of multiple comparison operators and (usually) get a final `
 | a &#124;&#124; b   | or   | is a *or* b true |
 | !a       | not  | inverts the boolean value of a |
 
-## Evaluating Comparisons
-
-Refer to `Demo.md` for further guidance
-
 ## if...else
 
 You can use the comparison operators in an "if" statement (or if...else) to determine what to do when a situation is met.
@@ -64,18 +60,6 @@ if(condition){
 
 The else will always run if the condition is not met.
 
-## Switch
-
-Refer to `Demo.md` for further guidance
-
-## Type Coercion
-
-Refer to `Demo.md` for further guidance
-
-## Short Circuit
-
-Refer to `Demo.md` for further guidance
-
 ## Control Flow (loops)
 
 What are loops? Why do we need them? Introduce the concepts of loops and discuss the importance of them.
@@ -97,8 +81,6 @@ In programming, we can create loops a few different ways.
 ```
 
 The secret to the for loops is that the starting value will always be evaluated at the beginning of every iteration. This means that the "condition" gets evaluated before every run to ensure it is still met. Indicate to students that once that "bottom curly brace" of the for loop is hit, the "increment" (or action) will execute.
-
-Refer to `Demo.md` for further guidance
 
 ### while loops
 
