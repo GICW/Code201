@@ -8,11 +8,6 @@
   - [Code Pen](https://codepen.io/pen/)
   - [repl.it](https://repl.it/languages/javascript)
 
-## Misc Topics
-
-- Avoid introducing `typeof` and `parseInt` today. Allow students the opportunity to discover the solution on their own or seek out advice from their peers or the instructional team.
-- It can be helpful to approach the demonstrations in pseudocode first. This serves two purposes: walking through the logic at a higher level, and showing students how to write pseudocode.
-
 ## Comparison Operators
 
 Compare two values and get a result in the form of `true` or `false`  
