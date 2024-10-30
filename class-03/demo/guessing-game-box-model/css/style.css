@@ -1,17 +1,16 @@
 * {
-  border: 1px solid black;
-  font-family: sans-serif;
-  /*margin: 0px;*/
+border: 1px solid black;
+font-family: sans-serif;
 }
 
-.inline-p {
-  display: inline-block;
+.inline-p{
+  display: inline-block
 }
 
-#px-div {
+#px-div{
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background-color: aquamarine;
 }
 
 #pct-div {
@@ -22,9 +21,9 @@
 
 #overflow-box {
   max-height: 100px;
-  overflow: scroll;
+  overflow:scroll;
 }
 
-#bmp-box p {
+#bmp-box p{
   padding: 20px;
 }
