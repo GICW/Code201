@@ -1,0 +1,51 @@
+body, html {
+  height: 100vh;
+  margin: 0 10px;
+}
+
+header {
+  height: 100px;
+  border-bottom-style: solid;
+}
+
+#heading-1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h3 span {
+  font-size: 0.7em;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  height: calc(100% - 200px);
+  overflow-y: scroll;
+  background-color: #f8f8ff;
+}
+
+section {
+  padding: 10px;
+}
+
+section:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+footer {
+  height: 50px;
+  background-color: #e4e4e1;
+  text-align: center;
+  padding: 10px;
+}
+
+footer span {
+  display: inline-block;
+  height: 100%;
+}
