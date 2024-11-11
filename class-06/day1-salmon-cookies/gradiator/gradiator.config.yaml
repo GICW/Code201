@@ -1,0 +1,6 @@
+---
+# configuration for gradiator tests
+features:
+  - lab-06
+helpers: 
+  - check-shop
