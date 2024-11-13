@@ -1,0 +1,7 @@
+---
+
+features:
+  - lab-07
+helpers:
+  - check-shop
+  - check-totals
