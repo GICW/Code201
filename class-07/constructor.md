@@ -35,11 +35,11 @@ For this lab, students will be refactoring all of their object literals for the 
 All of the methods for the constructor function should be inherited using its `.prototype` property.
 
 # Git Branching Review
-- git checkout -b *<branch name>*
+- git checkout -b `<branch name>`
 - Do your work
 - git add .
 - git commit -m"notes here"
-- git push origin *<branch name>*
+- git push origin `<branch name>`
 - Create PR(pull request)on your Github
 - Hit those green buttons to merge
 - Come back to your local machine(terminal): git checkout main
