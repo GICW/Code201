@@ -1,0 +1,64 @@
+* {
+  font-family: sans-serif;
+}
+
+header, footer {
+  background-color: darkgray;
+  height: 100px;
+  display: flex;
+}
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+nav a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: large;
+}
+
+main {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  gap: 30px;
+}
+
+#banners {
+  display: flex;
+  justify-content: space-between;
+}
+
+#featured {
+  display: flex;
+  gap: 30px;
+  height: 400px;
+}
+
+#featured article {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#featured h2 {
+  font-size: larger;
+}
+
+#featured article p {
+  overflow: scroll;
+}
+
+#featured article button {
+  width: 50%;
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
+}
+
