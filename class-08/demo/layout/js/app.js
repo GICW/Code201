@@ -86,8 +86,15 @@ Kitten.prototype.render = function() {
 
   const ul = document.createElement('ul');
   article.appendChild(ul);
-
+//[eat, play, pray, sleep]
+//[index 0, 1, 2, 3]
+//total length: 4
   for (let i = 0; i < this.interests.length; i++) {
+    //0 is now eat, 0 < 4, i++ increment by 1; i iteration; the condition inside the for loop statement is true, the nwe keep going, or else we break it; 
+    //it goes to the next iteration, i = 1; 1 < 4, T or F, T; i++; keep going, increase by 1;
+    //2, 2 < 4, T; now increase to 3;
+    //3, 3 < 4, T; now increase t0 4;
+    //4, 4 < 4, F; breaks the loop; 4 iterations! 
     const li = document.createElement('li');
     li.textContent = this.interests[i];
     ul.appendChild(li);

@@ -1,5 +1,6 @@
 body {
-  font-family: monospace;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: beige;
 }
 
 header {
@@ -9,6 +10,7 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -22,7 +24,7 @@ nav a {
   font-size: x-large;
   text-decoration: none;
   color: whitesmoke;
-  transition: font-size 0.5s ease;
+  transition: font-size 2s ease;
 }
 
 nav a:hover {
@@ -46,7 +48,7 @@ main {
   width: 100%;
 }
 
-.four-wide img {
+.four-wide img{
   width: 100%;
 }
 
@@ -57,7 +59,7 @@ main {
   justify-content: space-evenly;
 }
 
-.two-wide img {
+.two-wide img{
   width: 100%;
 }
 
@@ -67,13 +69,13 @@ main {
   gap: 20px;
 }
 
-.one-two-wide img {
+.one-two-wide img{
   flex: 1;
   width: 100%;
 }
 
 .one-two-wide p {
-  flex:2;
+  flex: 2;
   overflow: scroll;
   height: 400px;
   font-size: 20px;
@@ -85,4 +87,7 @@ footer {
   color: whitesmoke;
   font-size: x-large;
   padding: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
