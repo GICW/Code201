@@ -1,0 +1,10 @@
+---
+
+  features:
+    - lab-07
+    - lab-08
+    - lab-09
+    - lab-10b
+  helpers:
+    - check-shop
+    - check-totals
