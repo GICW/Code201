@@ -1,0 +1,32 @@
+@import url('reset.css');
+@import url('layout.css');
+
+p {
+   text-align: center;
+   font-size: 2em;
+}
+
+img {
+  box-shadow: .5em .5em .5em .5em;
+}
+
+section ul {
+  max-height: 300px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+#images {
+  margin-bottom: 1em;
+}
+
+body {
+  background-color: lightblue;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: lightgrey;
+  }
+}
