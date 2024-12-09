@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+}
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(34, 125, 178);
+}
+
+section {
+  margin: 4rem auto;
+  width: 90%;
+}
+
+#images {
+  display: flex;
+  gap: 2rem;
+  width: 60%;
+}
+
+#images img {
+  flex: 1;
+  min-width: 0;
+  border: 5px solid rgb(34, 125, 178);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(34, 125, 178, .1);
+}
+
+#results {
+  display: flex;
+  justify-content: center;
+}
+
+#results button {
+  background-color: rgb(240, 158, 6);
+  color: aliceblue;
+  border: 0;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 2rem;
+  cursor:grab;
+}

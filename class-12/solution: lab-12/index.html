@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Odd Duck Products Demo</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Odd Duck Products</h1>
+    <h2>Click fave plz. kthx!</h2>
+  </header>
+  <section id='images'>
+    <img src="" alt="" id='img-left'>
+    <img src="" alt="" id='img-center'>
+    <img src="" alt="" id='img-right'>
+  </section>
+  <section id="results">
+    <!-- stretch goal to show chart on button click vs. automatically -->
+    <button id='view-results-btn' hidden>View Results</button>
+    <button id='reset-btn' hidden>Reset</button>
+  </section>
+
+  <section id="chart">
+    <canvas id="canvas" width="600" height="600"></canvas>
+  </section>
+
+  <script type="text/javascript" src='js/app.js'></script>
+</body>
+
+</html>
