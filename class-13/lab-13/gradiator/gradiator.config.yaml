@@ -1,0 +1,6 @@
+---
+
+  features:
+    - lab-13
+  helpers:
+    - check-images

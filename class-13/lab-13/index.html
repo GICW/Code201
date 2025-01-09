@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Odd Duck</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Odd Duck Market Research</h1>
+    </div>
+    <nav>
+    </nav>
+  </header>
+  <main>
+    <div id="upper">
+      <aside id="aside" class="hide">
+        <h2>Results</h2>
+        <ul id="results"></ul>
+      </aside>
+      <div>
+        <article id="upperMessage">
+          <section id="products">
+          </section>
+          <section id="message">
+            <p>Welcome to Odd Duck Products! You have been selected to be a participant in our first ever market
+              research study. As you can see we have a ton of amazing products lined up to feature in our upcoming
+              catalogue. We need you to help narrow down which products we will offer. <br>Please chose just one of the
+              three images above that represents the quality product that you would like to see featured in our store
+              and push Vote. You get 25 chances to select your favorite of the three items displayed.</p>
+          </section>
+        </article>
+        <section id="charts" class="hide">
+          <div><canvas id="myChart1" width="425" height="425"></canvas></div>
+          <div><canvas id="myChart2" width="425" height="425"></canvas></div>
+          <div><canvas id="myChart3" width="425" height="425"></canvas></div>
+        </section>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="./js/app.js"></script>
+  </main>
+  <footer>
+    <p>&copy; 2024 Odd Duck Products</p>
+  </footer>
+</body>
+
+</html>
